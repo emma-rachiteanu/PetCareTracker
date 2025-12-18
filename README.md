@@ -7,6 +7,10 @@ The Notification Service consumes these events asynchronously and automatically 
 This design decouples the services and improves scalability and fault tolerance.
 
 ### CI/CD Pipeline
-The project includes a GitHub Actions CI pipeline that automatically builds all microservices
-and Docker images on every push. This ensures that the system remains buildable and consistent
-across environments.
+The project uses GitHub Actions for continuous integration and deployment.
+On each push to the milestone branch, the pipeline:
+- Builds all microservices using Maven
+- Builds Docker images for all services
+- Starts the services using Docker Compose in a local Docker environment
+
+The pipeline execution can be observed in the GitHub Actions tab of the repository.
