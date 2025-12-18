@@ -3,7 +3,7 @@ name: CI Pipeline
 on:
   push:
     branches:
-      - main
+      - 5-RabbitMQ-and-CI/CD-pipeline
   pull_request:
 
 jobs:
