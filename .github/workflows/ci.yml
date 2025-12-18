@@ -38,3 +38,7 @@ jobs:
       - name: Build Docker images
         run: docker compose build
 
+      - name: Start containers
+        run: docker compose up -d
+
+
