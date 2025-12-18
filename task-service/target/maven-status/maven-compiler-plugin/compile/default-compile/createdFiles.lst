@@ -1,0 +1,17 @@
+com\petcare\task_service\config\RabbitJsonConfig.class
+com\petcare\task_service\repository\TaskRepository.class
+com\petcare\task_service\model\CareTask$CareTaskBuilder.class
+com\petcare\task_service\dto\TaskResponseDto$TaskResponseDtoBuilder.class
+com\petcare\task_service\service\PetClient.class
+com\petcare\task_service\dto\TaskRequestDto.class
+com\petcare\task_service\dto\TaskResponseDto.class
+com\petcare\task_service\config\RabbitConfig.class
+com\petcare\task_service\model\CareTask.class
+com\petcare\task_service\TaskServiceApplication.class
+com\petcare\task_service\service\TaskService.class
+com\petcare\task_service\controller\TaskController.class
+com\petcare\task_service\service\TaskEventPublisher.class
+com\petcare\task_service\exception\GlobalExceptionHandler.class
+com\petcare\task_service\exception\ResourceNotFoundException.class
+com\petcare\task_service\config\WebClientConfig.class
+com\petcare\task_service\dto\TaskEventDto.class
